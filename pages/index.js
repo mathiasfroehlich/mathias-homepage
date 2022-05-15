@@ -14,7 +14,7 @@ const Page = () => {
           <p>
             Digital Craftzman ( Artist / Developer / Designer )
 
-            Tutorial stopped at 20:31 
+            Tutorial stopped at 34:00 
           </p>
         </Box>
       </Box>
