@@ -19,7 +19,13 @@ import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 const Page = () => {
   return (
     <Container>
-      <Box borderRadius="lg" bg="{useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}" p={3} mb={6} align="center">
+      <Box
+        borderRadius="lg"
+        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+        p={3}
+        mb={6}
+        textAlign="center"
+        css={{ backdropFilter: 'blur(10px)' }}>
         Hello, I&apos;m a full-stack developer based in Austria!
       </Box>
       <Box display={{md: 'flex'}}>
@@ -84,22 +90,24 @@ const Page = () => {
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>1991</BioYear>
+          Born in Innsbruck, Austria.
         </BioSection>
         <BioSection>
           <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          Completed HTL Anichstraße specializing in business engineering (also Software-Development)
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2012</BioYear>
+          Worked at Swarovski Wattens
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>2012 to 2014</BioYear>
+          Education in Media Design at Medienkolleg Innsbruck
+        </BioSection>
+        <BioSection>
+          <BioYear>2015 to present</BioYear>
+          Working at Raiffeisen Software GmbH
         </BioSection>
       </Section>
 
