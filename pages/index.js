@@ -11,6 +11,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
@@ -18,6 +19,7 @@ import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 
 const Page = () => {
   return (
+    <Layout>
     <Container>
       <Box
         borderRadius="lg"
@@ -180,6 +182,7 @@ const Page = () => {
         </List>
         </Section>
     </Container>
+</Layout>
   )
 }
 
